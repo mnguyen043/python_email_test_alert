@@ -8,7 +8,7 @@ mail.ehlo()
 
 mail.starttls()
 
-mail.login('mrmikenguyen89@gmail.com','<SECRET_CODE>')
+mail.login('mrmikenguyen89@gmail.com','<GMAIL_SECRET_CODE>')
 
 mail.sendmail('mrmikenguyen89@gmail.com','mrmikenguyen89@gmail.com',content)
 
